@@ -13,6 +13,7 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://use.typekit.net/qpy3wff.css">
 
     <title>Alexane Linder's Resumé</title>
   </head>
@@ -43,7 +44,7 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100  my-3" src="images/headpicture.jpg" alt="Portrait of Alexane Linder" width="100">
+          <img class="rounded-circle w-100 my-3" src="images/headpicture.jpg" alt="Portrait of Alexane Linder" width="100">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
@@ -70,7 +71,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+            <h2 class="title-experience">Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -114,7 +115,7 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2>Education</h2>
+            <h2 class="title-experience">Education</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -172,25 +173,25 @@
             -->
             <ul class="contact-list list-unstyled">
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
+                <a class="d-flex align-items-center" href="mailto:232192@buas.nl" target="_blank">
                   <img class="contact-icon" src="images/icons/white-email-icon.png" alt="Email">
                   232192@buas.nl
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
+                <a class="d-flex align-items-center" href="https://www.instagram.com/alexanelndr/" target="_blank">
                   <img class="contact-icon" src="images/icons/instagram-icon.png" alt="Facebook">
                   Instagram Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
+                <a class="d-flex align-items-center" href="https://github.com/alexane2425" target="_blank">
                   <img class="contact-icon" src="images/icons/github-icon.png" alt="LinkedIn">
                   GitHub Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
+                <a class="d-flex align-items-center" href="https://www.linkedin.com/in/alexane-l-4a2302299/" target="_blank">
                   <img class="contact-icon" src="images/icons/linkedin-icon.png" alt="Mobile Phone">
                   LinkedIn
                 </a>
@@ -206,7 +207,7 @@
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">Dutch</h5>
-                <div class="language-level w-50 border change-border position-relative">
+                <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-100"</div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
@@ -244,11 +245,12 @@
           <section class="my-3 aside-section">
             <h2>Other Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Adaptability</li>
-              <li class="skill-item">Adobe User</li>
-              <li class="skill-item">Drivers Licence</li>
+			  <li class="skill-item">Adaptability</li>
+			  <li class="skill-item">Adobe User</li>	
+			  <li class="skill-item">Drivers License</li>
             </ul>
           </section>
+	
 
           <!-- End of other skills, moving on to interest and hobbies -->
 
